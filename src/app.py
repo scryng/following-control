@@ -1,7 +1,7 @@
 # Defining the variables
-initial_following = 4875  # number of profiles you are following today (01/12)
+initial_following = 4675  # number of profiles you are following today (01/12)
 target_following = 940  # number of profiles you want to follow (10% of followers)
-remaining_days = 31  # remaining days to reach the goal (from 01/12 to 31/12)
+remaining_days = 31-8  # remaining days to reach the goal (from 01/12 to 31/12)
 
 # Calculating the total number of profiles to unfollow
 total_to_unfollow = initial_following - target_following  # total profiles to unfollow
@@ -32,5 +32,8 @@ def generate_following_schedule():
 following_schedule = generate_following_schedule()
 
 # Displaying the following schedule
+print("Initial following profiles:", initial_following)
+print("Target following after time:", target_following)
+print("Remaining days:", remaining_days)
 print("Following schedule:", following_schedule)
 print("Profiles to unfollow per day:", unfollow_per_day)
