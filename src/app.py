@@ -1,7 +1,7 @@
 # Defining the variables
-initial_following = 4675  # number of profiles you are following today (01/12)
-target_following = 940  # number of profiles you want to follow (10% of followers)
-remaining_days = 31-8  # remaining days to reach the goal (from 01/12 to 31/12)
+initial_following = 4607  # number of profiles you are following today (01/12)
+target_following = 938  # number of profiles you want to follow (10% of followers)
+remaining_days = 31-15  # remaining days to reach the goal (from 01/12 to 31/12)
 
 # Calculating the total number of profiles to unfollow
 total_to_unfollow = initial_following - target_following  # total profiles to unfollow
